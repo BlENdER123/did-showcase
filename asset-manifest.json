@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/did-showcase/static/css/main.81e16352.chunk.css",
+    "main.js": "/did-showcase/static/js/main.60eb23e0.chunk.js",
+    "main.js.map": "/did-showcase/static/js/main.60eb23e0.chunk.js.map",
+    "runtime-main.js": "/did-showcase/static/js/runtime-main.da4f7fbf.js",
+    "runtime-main.js.map": "/did-showcase/static/js/runtime-main.da4f7fbf.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/did-showcase/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.331a8971.chunk.js": "/did-showcase/static/js/2.331a8971.chunk.js",
+    "static/js/2.331a8971.chunk.js.map": "/did-showcase/static/js/2.331a8971.chunk.js.map",
+    "static/js/3.399cdda3.chunk.js": "/did-showcase/static/js/3.399cdda3.chunk.js",
+    "static/js/3.399cdda3.chunk.js.map": "/did-showcase/static/js/3.399cdda3.chunk.js.map",
+    "index.html": "/did-showcase/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/did-showcase/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.81e16352.chunk.css.map": "/did-showcase/static/css/main.81e16352.chunk.css.map",
+    "static/js/2.331a8971.chunk.js.LICENSE.txt": "/did-showcase/static/js/2.331a8971.chunk.js.LICENSE.txt",
+    "static/media/radiance logo.7a20f8e7.png": "/did-showcase/static/media/radiance logo.7a20f8e7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da4f7fbf.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.331a8971.chunk.js",
+    "static/css/main.81e16352.chunk.css",
+    "static/js/main.60eb23e0.chunk.js"
+  ]
+}
