@@ -14,7 +14,7 @@ function LoginDidPage() {
 
                 <button type="button" className="btn btn-secondary" onClick={() => {navigator.clipboard.writeText(status[0].DID)}} >COPY DID</button>
                 
-                <a href="/login">
+                <a href="#/login">
                     <button type="button" className="btn btn-secondary">
                         
                             Go to Authorization page

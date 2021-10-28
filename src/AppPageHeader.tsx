@@ -13,7 +13,7 @@ function AppPageHeader() {
                     </div>
                 </div>
 
-                <a href="/login">
+                <a href="#/login">
                     <button type="button" className="btn-signout">Sign out</button>
                 </a>
         </Router>
