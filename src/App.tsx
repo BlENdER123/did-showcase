@@ -32,11 +32,11 @@ function App() {
         <div className="App">
           <Header></Header>
           <Switch>
-            <Route exact path="/did-showcase" component={StartPage}></Route>
-            <Route exact path="/did-showcase/welcome-did" component={WelcomeDidPage}></Route>
-            <Route exact path="/did-showcase/login-did" component={LoginDidPage}></Route>
-            <Route exact path="/did-showcase/login" component={LoginPage}></Route>
-            <Route exact path="/did-showcase/app" component={AppPage}></Route>
+            <Route exact path="/" component={StartPage}></Route>
+            <Route exact path="/welcome-did" component={WelcomeDidPage}></Route>
+            <Route exact path="/login-did" component={LoginDidPage}></Route>
+            <Route exact path="/login" component={LoginPage}></Route>
+            <Route exact path="/app" component={AppPage}></Route>
           </Switch>
         </div>
       </Context.Provider>

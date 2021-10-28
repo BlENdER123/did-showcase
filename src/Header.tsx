@@ -15,17 +15,17 @@ function Header() {
             <div className="header">
                 <div className="container">
                     <header className="d-flex flex-wrap justify-content-center py-3 mb-4">
-                        <a href="/did-showcase" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                             <img src={logo} alt="logo" className="logo"/>
                             <span className="fs-4">RADIANCETEAM</span>
                         </a>
 
                         <Switch>
-                            <Route exact path="/did-showcase" component={StartPageHeader}></Route>
-                            <Route exact path="/did-showcase/welcome-did" component={WelcomeDidPageHeader}></Route>
-                            <Route exact path="/did-showcase/login-did" component={WelcomeDidPageHeader}></Route>
-                            <Route exact path="/did-showcase/login" component={WelcomeDidPageHeader}></Route>
-                            <Route exact path="/did-showcase/app" component={AppPageHeader}></Route>
+                            <Route exact path="/" component={StartPageHeader}></Route>
+                            <Route exact path="/welcome-did" component={WelcomeDidPageHeader}></Route>
+                            <Route exact path="/login-did" component={WelcomeDidPageHeader}></Route>
+                            <Route exact path="/login" component={WelcomeDidPageHeader}></Route>
+                            <Route exact path="/app" component={AppPageHeader}></Route>
                         </Switch>
 
                     </header> 
