@@ -13,7 +13,7 @@ function AppPageHeader() {
                     </div>
                 </div>
 
-                <a href="/did-site/login">
+                <a href="/did-showcase/login">
                     <button type="button" className="btn-signout">Sign out</button>
                 </a>
         </Router>

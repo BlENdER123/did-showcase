@@ -7,7 +7,7 @@ function WelcomeDidPage() {
             <div className="modal-w modal-welcome">
                 <div className="text">Welcome!</div>
                 
-                <a href="/did-site/login-did">
+                <a href="/did-showcase/login-did">
                     <button type="button" className="btn btn-secondary">
                         I want to create DID
                     </button>

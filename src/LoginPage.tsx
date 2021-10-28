@@ -7,7 +7,7 @@ function LoginPage() {
             <div className="modal-w modal-welcomeback show">
                 <div className="text">Welcome back!</div>
                 
-                <a href="/did-site/app">
+                <a href="/did-showcase/app">
                     <button type="button" className="btn btn-secondary">
                         
                             Log in
