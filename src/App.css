@@ -98,6 +98,181 @@ a:hover{
   height: 100%;
 }
 
+.modal-connect{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 0px;
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page>.close{
+  background-color: transparent;
+  border: 0;
+}
+.page>.close>span{
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.page>.close{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+
+}
+.page>.close>span:nth-child(1){
+  transform: rotate(45deg);
+}
+.page>.close>span:nth-child(2){
+  transform: rotate(-45deg);
+}
+.page{
+  text-align: center;
+}
+.page>.title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.page>.message {
+  color: #000;
+}
+.page>.subtitle{
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+.page>.content {
+  background-color: #E9E9EA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+.page>.content>.checkbox {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.page>.content>.checkbox>input {
+  width: 40px;
+  height: 40px;
+}
+.page>.content>.text{
+  text-align-last: left;
+}
+.page>.content>.text>a{
+  color: #3569F0 !important;
+  border-bottom: 1px solid #3569F0;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pagination>.dots {
+  display: flex;
+  margin-bottom: 30px;
+}
+.pagination>.dots>.dot{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #BCBABA; 
+  margin-right: 10px;
+}
+.pagination>.dots>.dot:hover{
+  cursor: pointer;
+}
+.pagination>.dots>.active{
+  background-color: #3569F0;
+}
+.pagination>.dots>.dot:nth-last-child(1){
+  margin-right: 0;
+}
+.pagination>.next>button{
+  background: #3569F0;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+}
+
+.pin-inputs {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.pin-inputs>input{
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.pin-inputs>button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 0px;
+}
+.pin-inputs>button>img{
+  width: 100%;
+}
+.pin-inputs>input:nth-last-child(1){
+  margin-right: 0px;
+}
+.pin-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pin-board>.board{
+  display: flex;
+  align-items: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 200px;
+}
+.pin-board>.board>button{
+  background: #FFFFFF;
+  border: 1px solid #3569F0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.pin-board>.board>button:hover {
+  border: 2px solid #3569F0;
+}
+
 .message{
   color: #fff;
   font-size: 24px;

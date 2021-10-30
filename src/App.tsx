@@ -6,6 +6,7 @@ import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Context from './Context';
 
 import StartPage from './StartPage';
+import ConnectWalletPage from './ConnectWalletPage';
 import WelcomeDidPage from './WelcomeDidPage';
 import LoginDidPage from './LoginDidPage';
 import LoginPage from './LoginPage';
@@ -33,6 +34,7 @@ function App() {
           <Header></Header>
           <Switch>
             <Route exact path="/" component={StartPage}></Route>
+            <Route exact path="/connect-wallet" component={ConnectWalletPage}></Route>
             <Route exact path="/welcome-did" component={WelcomeDidPage}></Route>
             <Route exact path="/login-did" component={LoginDidPage}></Route>
             <Route exact path="/login" component={LoginPage}></Route>

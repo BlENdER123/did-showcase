@@ -22,6 +22,7 @@ function Header() {
 
                         <Switch>
                             <Route exact path="/" component={StartPageHeader}></Route>
+                            <Route exact path="/connect-wallet" component={StartPageHeader}></Route>
                             <Route exact path="/welcome-did" component={WelcomeDidPageHeader}></Route>
                             <Route exact path="/login-did" component={WelcomeDidPageHeader}></Route>
                             <Route exact path="/login" component={WelcomeDidPageHeader}></Route>
