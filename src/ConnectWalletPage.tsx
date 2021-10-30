@@ -1,5 +1,10 @@
 import React, {useState} from "react";
 import backspace from "./img/backspace.png"
+//import bip39 from 'bip39';
+import crypto from 'crypto'
+
+const bip39 = require('bip39');
+
 function ConnectWalletPage() {
     const settings = {
         dots: true,
@@ -150,6 +155,18 @@ function ConnectWalletPage() {
         }
     }
 
+    //let client:any;
+
+    function genSeed(){
+
+        const mnemonic = bip39.generateMnemonic();
+        console.log(mnemonic);
+        
+        const mnemonicHash = bip39.mnemonicToSeedSync(mnemonic).toString('hex');
+        console.log(mnemonicHash);
+        
+    }
+
 
     return(
         <div className="modal-connect">
@@ -252,7 +269,7 @@ function ConnectWalletPage() {
                 <div className="break"></div>
                 <div className="next">
                     <button className={curentPage===4?"hide": ""} onClick={NextPage}>Next</button>
-                    <button className={curentPage!==4?"hide": ""}>Great!</button>
+                    <button className={curentPage!==4?"hide": ""} onClick={genSeed}>Great!</button>
                 </div>
             </div>
         </div>
